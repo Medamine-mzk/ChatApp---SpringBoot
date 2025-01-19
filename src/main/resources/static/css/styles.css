@@ -1,0 +1,24 @@
+/* Custom CSS for Chat Application */
+
+/* Set a max height for the chat messages container */
+#messages {
+    height: 400px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+/* Style for individual chat messages */
+.message {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #e9ecef;
+}
+
+/* Style for the message input and send button */
+.input-group {
+    margin-top: 10px;
+}
